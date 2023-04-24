@@ -1,0 +1,21 @@
+C:\Users\erick\Desktop\Faculdade\2º Semestre\LP2\Atividade3\IMC\IMC\bin\Debug\IMC.exe.config
+C:\Users\erick\Desktop\Faculdade\2º Semestre\LP2\Atividade3\IMC\IMC\bin\Debug\IMC.exe
+C:\Users\erick\Desktop\Faculdade\2º Semestre\LP2\Atividade3\IMC\IMC\bin\Debug\IMC.pdb
+C:\Users\erick\Desktop\Faculdade\2º Semestre\LP2\Atividade3\IMC\IMC\obj\Debug\IMC.csproj.AssemblyReference.cache
+C:\Users\erick\Desktop\Faculdade\2º Semestre\LP2\Atividade3\IMC\IMC\obj\Debug\IMC.csproj.SuggestedBindingRedirects.cache
+C:\Users\erick\Desktop\Faculdade\2º Semestre\LP2\Atividade3\IMC\IMC\obj\Debug\IMC.frmIMC.resources
+C:\Users\erick\Desktop\Faculdade\2º Semestre\LP2\Atividade3\IMC\IMC\obj\Debug\IMC.Properties.Resources.resources
+C:\Users\erick\Desktop\Faculdade\2º Semestre\LP2\Atividade3\IMC\IMC\obj\Debug\IMC.csproj.GenerateResource.cache
+C:\Users\erick\Desktop\Faculdade\2º Semestre\LP2\Atividade3\IMC\IMC\obj\Debug\IMC.csproj.CoreCompileInputs.cache
+C:\Users\erick\Desktop\Faculdade\2º Semestre\LP2\Atividade3\IMC\IMC\obj\Debug\IMC.exe
+C:\Users\erick\Desktop\Faculdade\2º Semestre\LP2\Atividade3\IMC\IMC\obj\Debug\IMC.pdb
+C:\Users\Everton\Downloads\IMC\IMC\IMC\bin\Debug\IMC.exe.config
+C:\Users\Everton\Downloads\IMC\IMC\IMC\bin\Debug\IMC.exe
+C:\Users\Everton\Downloads\IMC\IMC\IMC\bin\Debug\IMC.pdb
+C:\Users\Everton\Downloads\IMC\IMC\IMC\obj\Debug\IMC.csproj.AssemblyReference.cache
+C:\Users\Everton\Downloads\IMC\IMC\IMC\obj\Debug\IMC.frmIMC.resources
+C:\Users\Everton\Downloads\IMC\IMC\IMC\obj\Debug\IMC.Properties.Resources.resources
+C:\Users\Everton\Downloads\IMC\IMC\IMC\obj\Debug\IMC.csproj.GenerateResource.cache
+C:\Users\Everton\Downloads\IMC\IMC\IMC\obj\Debug\IMC.csproj.CoreCompileInputs.cache
+C:\Users\Everton\Downloads\IMC\IMC\IMC\obj\Debug\IMC.exe
+C:\Users\Everton\Downloads\IMC\IMC\IMC\obj\Debug\IMC.pdb
