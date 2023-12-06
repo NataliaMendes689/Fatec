@@ -18,28 +18,28 @@ int main(void) {
 // Atribuição de valores para 9 jogadores
 
     // Jogador 1
-    strcpy(jogadores[0].nome, "Danilo");
+    strcpy(jogadores[0].nome, "Natalia");
     jogadores[0].pontuacao = 87;
     jogadores[0].data.dia = 1;
     jogadores[0].data.mes = 1;
     jogadores[0].data.ano = 2023;
 
     // Jogador 2
-    strcpy(jogadores[1].nome, "Danielly");
+    strcpy(jogadores[1].nome, "Salomão");
     jogadores[1].pontuacao = 91;
     jogadores[1].data.dia = 2;
     jogadores[1].data.mes = 1;
     jogadores[1].data.ano = 2023;
 
     // Jogador 3
-    strcpy(jogadores[2].nome, "Pedro");
+    strcpy(jogadores[2].nome, "Wesley");
     jogadores[2].pontuacao = 55;
     jogadores[2].data.dia = 3;
     jogadores[2].data.mes = 1;
     jogadores[2].data.ano = 2023;
 
     // Jogador 4
-    strcpy(jogadores[3].nome, "Ana");
+    strcpy(jogadores[3].nome, "Luan");
     jogadores[3].pontuacao = 68;
     jogadores[3].data.dia = 4;
     jogadores[3].data.mes = 10;
@@ -53,91 +53,91 @@ int main(void) {
     jogadores[4].data.ano = 2023;
 
     // Jogador 6
-    strcpy(jogadores[5].nome, "Mariana");
+    strcpy(jogadores[5].nome, "Erick");
     jogadores[5].pontuacao = 13;
     jogadores[5].data.dia = 6;
     jogadores[5].data.mes = 1;
     jogadores[5].data.ano = 2023;
 
     // Jogador 7
-    strcpy(jogadores[6].nome, "Carlos");
+    strcpy(jogadores[6].nome, "Ana");
     jogadores[6].pontuacao = 35;
     jogadores[6].data.dia = 7;
     jogadores[6].data.mes = 1;
     jogadores[6].data.ano = 2023;
 
     // Jogador 8
-    strcpy(jogadores[7].nome, "Breno");
+    strcpy(jogadores[7].nome, "Caio");
     jogadores[7].pontuacao = 76;
     jogadores[7].data.dia = 7;
     jogadores[7].data.mes = 10;
     jogadores[7].data.ano = 2022;
 
     // Jogador 9
-    strcpy(jogadores[8].nome, "Gessica");
+    strcpy(jogadores[8].nome, "Ricardo");
     jogadores[8].pontuacao = 75;
     jogadores[8].data.dia = 7;
     jogadores[8].data.mes = 1;
     jogadores[8].data.ano = 2022;
 
     // Jogador 10
-    strcpy(jogadores[9].nome, "Diego");
+    strcpy(jogadores[9].nome, "Francisco");
     jogadores[9].pontuacao = 90;
     jogadores[9].data.dia = 7;
     jogadores[9].data.mes = 6;
     jogadores[9].data.ano = 2020;
 
     // Jogador 11
-    strcpy(jogadores[10].nome, "Paloma");
+    strcpy(jogadores[10].nome, "Everton");
     jogadores[10].pontuacao = 77;
     jogadores[10].data.dia = 7;
     jogadores[10].data.mes = 1;
     jogadores[10].data.ano = 2021;
 
     // Jogador 12
-    strcpy(jogadores[11].nome, "Milena");
+    strcpy(jogadores[11].nome, "Joao");
     jogadores[11].pontuacao = 88;
     jogadores[11].data.dia = 7;
     jogadores[11].data.mes = 1;
     jogadores[11].data.ano = 2022;
 
     // Jogador 13
-    strcpy(jogadores[12].nome, "Alan");
+    strcpy(jogadores[12].nome, "Luis");
     jogadores[12].pontuacao = 74;
     jogadores[12].data.dia = 15;
     jogadores[12].data.mes = 5;
     jogadores[12].data.ano = 2022;
 
     // Jogador 14
-    strcpy(jogadores[13].nome, "Erick");
+    strcpy(jogadores[13].nome, "Julio");
     jogadores[13].pontuacao = 8;
     jogadores[13].data.dia = 18;
     jogadores[13].data.mes = 1;
     jogadores[13].data.ano = 2023;
 
     // Jogador 15
-    strcpy(jogadores[14].nome, "Cris");
+    strcpy(jogadores[14].nome, "Gabriel");
     jogadores[14].pontuacao = 15;
     jogadores[14].data.dia = 20;
     jogadores[14].data.mes = 2;
     jogadores[14].data.ano = 2023;
 
     // Jogador 16
-    strcpy(jogadores[15].nome, "Delnice");
+    strcpy(jogadores[15].nome, "Andre");
     jogadores[15].pontuacao = 20;
     jogadores[15].data.dia = 26;
     jogadores[15].data.mes = 3;
     jogadores[15].data.ano = 2023;
 
     // Jogador 17
-    strcpy(jogadores[16].nome, "Cesar");
+    strcpy(jogadores[16].nome, "Artur");
     jogadores[16].pontuacao = 18;
     jogadores[16].data.dia = 7;
     jogadores[16].data.mes = 1;
     jogadores[16].data.ano = 2023;
 
     // Jogador 18
-    strcpy(jogadores[17].nome, "Dimas");
+    strcpy(jogadores[17].nome, "Leonardo");
     jogadores[17].pontuacao = 61;
     jogadores[17].data.dia = 29;
     jogadores[17].data.mes = 1;
