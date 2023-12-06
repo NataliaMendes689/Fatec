@@ -15,7 +15,7 @@ int main(void) {
 
     Jogador jogadores[MAXJOGADORES];
 
-// Atribui��o de valores para 9 jogadores
+// Atribuição de valores para 9 jogadores
 
     // Jogador 1
     strcpy(jogadores[0].nome, "Danilo");
@@ -234,7 +234,7 @@ void MostrarAlta(Jogador *jogadores) {
 
     int maiorPontuacao = jogadores[0].pontuacao;
 
-    for (int i = 0; i < numJogadores; i++) {//at� o numero de jogadores. Lembre-se que o jogador[0] � o Jogador 1
+    for (int i = 0; i < numJogadores; i++) {//até o numero de jogadores. Lembre-se que o jogador[0] é o Jogador 1
         if (jogadores[i].pontuacao > maiorPontuacao) {
             maiorPontuacao = jogadores[i].pontuacao;
         }
@@ -245,7 +245,7 @@ void MostrarAlta(Jogador *jogadores) {
 //--------------------------------------------------------------------------------------
 void MostrarBaixa(Jogador *jogadores) {
 
-    int piorJogador = EncontrarPiorJogador(jogadores, &numJogadores);//ver a fun��o EncontrarPiorJogador
+    int piorJogador = EncontrarPiorJogador(jogadores, &numJogadores);//ver a função EncontrarPiorJogador
 
     if (piorJogador != -1)
         printf("A menor pontuacao eh: %d\n", jogadores[piorJogador].pontuacao);
@@ -287,8 +287,8 @@ void MostrarRanking(Jogador *jogadores)
     for (int i = 0; i < numJogadores - 1; i++) {
         for (int j = i + 1; j < numJogadores; j++) {
             if (jogadores[j].pontuacao > jogadores[i].pontuacao)
-            //quero a pontua��o do jogador[i] no jogador[j]
-            //mas n�o quero perder os dados do jogador[j]
+            //quero a pontuação do jogador[i] no jogador[j]
+            //mas não quero perder os dados do jogador[j]
             //por isso, usei o aux, para armazenar momentaneamente os dados do jogador [i]
             {
                 aux = jogadores[i];
@@ -298,7 +298,7 @@ void MostrarRanking(Jogador *jogadores)
         }
     }
 
-    // Exibir os jogadores em ordem de classifica��o
+    // Exibir os jogadores em ordem de classificação
     printf("Ranking de jogadores:\n");
     for (int i = 0; i < numJogadores; i++) {
         printf("\nPosicao %d:", i + 1);
@@ -321,7 +321,7 @@ void RemoverJogador(Jogador *jogadores, int *numJogadores)
         int i;
         for (i = posicao; i < *numJogadores - 1; i++)//loop a partir do jogador encontrado
             {
-            jogadores[i] = jogadores[i + 1];//todos jogadores ap�s o encontrado d�o um passinho pra tr�s
+            jogadores[i] = jogadores[i + 1];//todos jogadores após o encontrado dão um passinho pra trás
             }
         strcpy(jogadores[aux-1].nome,"");
         printf("Jogador removido com sucesso!\n");
@@ -363,7 +363,7 @@ void exibirPessoa(Jogador pessoa) {
 
 //--------------------------------------------------------------------------------------
 int gerarAleatorio(){
-    return rand() % 100; //N�mero aleat�rio entre 0 e 99.
+    return rand() % 100; //Número aleatório entre 0 e 99.
 }
 
 //--------------------------------------------------------------------------------------
@@ -385,10 +385,10 @@ int EncontrarJogador(Jogador *jogadores, int *numJogadores, char *nome)
 {
     for (int i = 0; i < *numJogadores; i++) {
         if (strcmp(jogadores[i].nome, nome) == 0) {
-            return i; // Retorna o �ndice do jogador encontrado
+            return i; // Retorna o índice do jogador encontrado
         }
     }
-    return -1; // Retorna -1 se o jogador n�o for encontrado
+    return -1; // Retorna -1 se o jogador não for encontrado
 }
 
 //--------------------------------------------------------------------------------------
