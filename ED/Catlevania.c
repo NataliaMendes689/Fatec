@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-//#include <unistd.h>
+#include <unistd.h> //tomar cuidado
 #include <string.h>
 #include <ctype.h>
 #include "Guardian_Tales.h"
