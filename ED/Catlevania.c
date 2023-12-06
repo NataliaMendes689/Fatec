@@ -4,7 +4,7 @@
 #include <unistd.h> //tomar cuidado
 #include <string.h>
 #include <ctype.h>
-#include "Guardian_Tales.h"
+#include "Castlevania.h"
 
 #define MAXJOGADORES 20
 
