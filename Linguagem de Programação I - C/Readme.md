@@ -1,1 +1,1 @@
-Linguagem de Programação I - linguagem C
+Diversos exercícios propostos em linguagem C.
