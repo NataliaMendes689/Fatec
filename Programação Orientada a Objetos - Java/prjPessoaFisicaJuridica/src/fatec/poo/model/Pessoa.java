@@ -7,10 +7,13 @@ public abstract class Pessoa {
     private String nome;
     private int anoInscricao;
     private double totalCompras; 
+    private PedidoCompra[] pedidosCompras;
+    private int numPedido;
     
     public Pessoa(String n, int anoIns){
         nome = n;
-        anoInscricao = anoIns;       
+        anoInscricao = anoIns;     
+        pedidosCompras = new PedidoCompra[10];
     }
     
     abstract public double calcBonus(int anoAtual);
@@ -30,4 +33,13 @@ public abstract class Pessoa {
     public double getTotalCompras() {
         return totalCompras;
     }  
+    
+    public void addPedidoCompra(PedidoCompra Pc){
+        pedidosCompras[numPedido] = Pc;
+        numPedido++;
+    }
+    
+    public int getNumPedido(){
+        return numPedido;
+    }
 }
