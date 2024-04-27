@@ -1,0 +1,1 @@
+Programa em C que implementa um menu de pontuações de jogadores em um jogo fictício chamado "Guardian Tales".
